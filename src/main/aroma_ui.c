@@ -24,6 +24,10 @@
 #include <sys/stat.h>       //-- Filesystem Stats
 #include "../edify/expr.h"  //-- Edify Parser
 #include "../aroma.h"
+#include "../edify/parser.c"
+
+void* yy_scan_string(const char* data);
+byte ag_blur(CANVAS * d, CANVAS * s, int radius);
 
 #define APARSE_MAXHISTORY 256
 

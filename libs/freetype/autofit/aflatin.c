@@ -24,6 +24,7 @@
 #include "aferrors.h"
 #include "strings.h"
 
+#include "string.h"
 
 #ifdef AF_CONFIG_OPTION_USE_WARPER
 #include "afwarp.h"

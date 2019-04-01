@@ -22,6 +22,9 @@
  */
 #include <sched.h>
 #include "../aroma.h"
+// #include "../libs/aroma_input.c"
+
+void ui_clear_key_queue_ex();
 
 /***************************[ GLOBAL VARIABLES ]**************************/
 static AC_CONFIG acfg_var;

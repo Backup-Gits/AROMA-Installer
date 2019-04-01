@@ -27,6 +27,8 @@
 #include <sys/mman.h>
 #include <pthread.h>
 #include "../aroma.h"
+#include <linux/input.h>
+#include "../libs/aroma_png.c"
 
 /*****************************[ GLOBAL VARIABLES ]*****************************/
 static int                             ag_fb   = 0;       //-- FrameBuffer Handler

@@ -37,6 +37,8 @@
 #define STVALUES if (verbose) printf ("scale:%f translate:%ld ", *scale_value, *translate_value);
 #endif
 
+#include "string.h"
+
   /* initialize renderer -- init its raster */
   static FT_Error
   ft_smooth_init( FT_Renderer  render )
